@@ -1,0 +1,139 @@
+body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
+}
+body {
+  font-family: georgia, serif;
+  margin: 20px;
+}
+
+section.play, section.dramatis {
+  width: 90%;
+  margin: 12px auto;
+  max-width: 750px;
+  border: 1px solid black;
+  margin: 10px auto;
+  padding: 20px;
+  background-color: white;
+  clear: both;
+}
+div.sceneImage {
+}
+h1.act, h1.dramatishead {
+font-family: verdana, sans-serif;
+text-align: center;
+font-size: 2em;
+background-color:   rgb(101, 104, 195);
+color: white;
+padding: 12px 0;
+}
+p.character {
+  font-size: 1.4em;
+}
+p.charactername {
+margin:0 12px 0 40px;
+}
+h1.dramatishead {
+
+}
+h2.firstscene {
+
+}
+h2.location {
+
+}
+p.play_location {
+
+}
+p.prose {
+
+}
+h2.scene {
+
+}
+p.song {
+text-align: center;
+margin:0;
+}
+h2.stagedirection {
+
+}
+p.verseline {
+margin: 0 12px 0 60px;
+}
+span.character_role {
+
+  color: rgb(101, 104, 195)
+}
+span.stage_directions_inline {
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+    font-family: monospace;
+}
+
+ul {
+  background-color: rgb(101, 104, 195);
+    list-style: none;
+    margin: 10px;
+    padding-left: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+
+}
+
+li {
+    color: #fff;
+  background-color: rgb(101, 104, 195);
+    display: block;
+    float: left;
+    padding: 10px;
+    position: relative;
+    text-decoration: none;
+  transition-duration: 0.5s;
+}
+
+li a {
+  color: #fff;
+}
+
+li:hover,
+li:focus-within {
+    background: grey;
+    cursor: pointer;
+}
+
+li:focus-within a {
+  outline: none;
+}
+
+ul li ul {
+    background: orange;
+    visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+    position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+    left: 0;
+  display: none;
+}
+
+ul li:hover > ul,
+ul li:focus-within > ul,
+ul li ul:hover,
+ul li ul:focus {
+  visibility: visible;
+  opacity: 1;
+  display: block
+}
+
+ul li ul li {
+    clear: both;
+  width: 100%;
+}
