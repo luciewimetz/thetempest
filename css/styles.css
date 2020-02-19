@@ -9,13 +9,6 @@ ul {
   display:block;
 }
 
-h1 {
-font-family: verdana;
-color:rgb(101, 104, 195);
-padding: 0;
-margin: 0;
-text-align: center;
-}
 
 .details {
   font-size: 15px;
@@ -26,10 +19,18 @@ text-align: center;
 padding: 30px 50px;
 margin: 10px auto;
    width: 75%;
-   border: 1px solid grey;
+   border: 1px solid  grey;
    background: #F2F2F2;
  }
+p {
+font-size: 18px;
+text-align: justify;
+}
 
+li {
+  font-size: 18px;
+  font-style: italic;
+}
  img {
    display:block;
    width: 100%;
@@ -39,11 +40,8 @@ margin: 10px auto;
 
 @media only screen and (min-width: 600px) {
 
-
-
    img {
-     width: 30%;
-     float: right;
+     width: 50%;
    }
    div.everything {
      margin:10px auto;

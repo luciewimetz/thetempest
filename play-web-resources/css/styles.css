@@ -1,7 +1,8 @@
 body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
 }
 body {
-  font-family: georgia, serif;
+  font-family: georgia;
+  font-size: 17PX;
   margin: 20px;
 }
 
@@ -15,57 +16,83 @@ section.play, section.dramatis {
   background-color: white;
   clear: both;
 }
+
+section.dramatis{
+  margin-top: 60px;
+}
 div.sceneImage {
 }
 h1.act, h1.dramatishead {
-font-family: verdana, sans-serif;
 text-align: center;
 font-size: 2em;
-background-color:   rgb(101, 104, 195);
+background-color:   rgb(24, 68, 131);
 color: white;
 padding: 12px 0;
+margin-top: 10px;
 }
 p.character {
   font-size: 1.4em;
+  font-variant: small-caps;
 }
 p.charactername {
 margin:0 12px 0 40px;
 }
-h1.dramatishead {
 
+p.play_title {
+  text-align: center;
+}
+h1.dramatishead {
+font-family: "palatino linotype", serif;
+}
+h1.play_title {
+  text-align: center;
+  font-family:fantasy;
+  font-variant: small-caps;
+  font-size: 60px;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  ;
 }
 h2.firstscene {
-
+font-family:
 }
 h2.location {
-
-}
-p.play_location {
-
+font-size: 18px;
+font-family: serif;
+font-style: italic;
+font-weight:bolder;
 }
 p.prose {
-
-}
-h2.scene {
-
+text-align: justify;
 }
 p.song {
 text-align: center;
 margin:0;
+font-style: italic;
 }
 h2.stagedirection {
-
+font-size: 17px;
 }
 p.verseline {
 margin: 0 12px 0 60px;
 }
 span.character_role {
-
-  color: rgb(101, 104, 195)
+  color: rgb(24, 68, 131)
 }
 span.stage_directions_inline {
+  font-style: italic;
+  font-weight: 500;
 }
-
+span.epilogue {
+  font-weight: bold;
+  font-variant: small-caps;
+  font-size: 20px;
+}
+span.the_end {
+  font-weight: bold;
+  font-size: 20px;
+  font-variant: small-caps;
+}
 a {
   text-decoration: none;
 }
@@ -75,7 +102,7 @@ nav {
 }
 
 ul {
-  background-color: rgb(101, 104, 195);
+  background-color: rgb(24, 68, 131);
     list-style: none;
     margin: 10px;
     padding-left: 20px;
@@ -88,8 +115,8 @@ ul {
 }
 
 li {
-    color: #fff;
-  background-color: rgb(101, 104, 195);
+    color: #184483;
+  background-color: rgb(24, 68, 131);
     display: block;
     float: left;
     padding: 10px;
@@ -119,7 +146,7 @@ ul li ul {
   min-width: 5rem;
     position: absolute;
   transition: all 0.5s ease;
-  margin-top: 1rem;
+  margin-top: 2.5rem;
     left: 0;
   display: none;
 }
@@ -136,4 +163,15 @@ ul li ul:focus {
 ul li ul li {
     clear: both;
   width: 100%;
+}
+
+img {
+  width: 20%;
+  display: block;
+  margin: 50px auto;
+  margin-top: 10px;
+}
+
+img.act_img {
+  width: 40%;
 }
