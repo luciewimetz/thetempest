@@ -113,7 +113,7 @@ ul {
 
 
 }
-.video-box {
+iframe.video-box {
 	position: relative;
 	padding-bottom: 56.25%;
 	padding-top: 30px;
@@ -122,13 +122,6 @@ ul {
 	margin-bottom: 12px;
 }
 
-.video-box iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
 
 li {
     color: #184483;
@@ -190,5 +183,5 @@ img {
 
 img.act_img {
   width: 40%;
-  border: 1px solid: gray; 
+  border: 1px solid: gray;
 }
