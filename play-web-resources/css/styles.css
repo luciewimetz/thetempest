@@ -114,14 +114,13 @@ ul {
 
 }
 iframe.video-box {
-	position: relative;
+	position: center;
 	padding-bottom: 56.25%;
 	padding-top: 30px;
 	height: 0;
 	overflow: hidden;
 	margin-bottom: 12px;
 }
-
 
 li {
     color: #184483;
@@ -179,9 +178,9 @@ img {
   display: block;
   margin: 50px auto;
   margin-top: 10px;
+  border: 1px solid: gray;
 }
 
 img.act_img {
   width: 40%;
-  border: 1px solid: gray;
 }
